@@ -7,7 +7,7 @@ This report details the exploratory analysis, feature engineering, and clusterin
 ### Dataset
 We used a public financial transactions dataset with the following relevant fields:
 
-- `TranscationID`: Unique ID for each transaction.
+- `TransactionID`: Unique ID for each transaction.
 - `AccountID`: Unique ID for each account, linked to multiple transactions.
 - `TransactionAmount`: Monetary value of the transaction.
 - `TransactionDate`: Date and time of the transaction.
