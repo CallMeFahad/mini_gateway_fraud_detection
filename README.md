@@ -18,7 +18,7 @@ We used a public financial transactions dataset with the following relevant fiel
 - `MerchantID`: Unique ID for the merchant involved in the transaction.
 - `Channel`: Transaction channel (e.g., Online, ATM, Branch).
 
-Since there were no labels provided, we considerd this as an **unsupervised anomaly detection problem**.
+Since there were no labels provided, we considered this as an **unsupervised anomaly detection problem**.
 The dataset can be downloaded from [here](https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection/data)
 
 ### Exploratory Dataset Analysis:
