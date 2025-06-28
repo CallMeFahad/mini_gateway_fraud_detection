@@ -1,4 +1,4 @@
-# mini gateway fraud detection
+# Mini gateway fraud detection
 Analyzing bank data to identify anomalies and flag them as potentially fraudulent transactions &amp; xtracts the  merchant name &amp; total from the receipt image to feed a rules engine.
 
 ## Part A: Unsupervised Fraud Detection via K-Means Clustering
