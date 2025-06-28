@@ -110,7 +110,7 @@ Once running, your API will be available at `http://localhost:8000`
 ## How to Test
 
 ### Option 1: Interactive Documentation (Easiest)
-1. Start the application: `uvicorn app:app --reload`
+1. Start the application: `uvicorn fraud_detection_main:app --reload`
 2. Open your browser and go to: `http://localhost:8000/docs`
 3. You'll see an interactive interface where you can:
    - Test the fraud detection by entering transaction data
@@ -156,7 +156,7 @@ with open("receipt.jpg", "rb") as f:
     response = requests.post("http://localhost:8000/ocr", files=files)
     print("OCR Result:", response.json())
 ```
-
+(Also available in the ```api_testing.py``` file)
 ## Understanding the Results
 
 ### Fraud Detection Results
